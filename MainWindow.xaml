@@ -1,0 +1,35 @@
+﻿<Window x:Class="Fight.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Fight"
+        mc:Ignorable="d"
+        Title="Fight (beta)" Height="450" Width="800" Icon="/Fight;component/icono.png">
+    <Window.Resources>
+        <Style x:Key="MiEstilo" TargetType="Label">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="381*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnTest" Content="Play" HorizontalAlignment="Left"   Margin="6,96,0,0" VerticalAlignment="Top" Width="120" Click="btnTest_Click" Grid.Column="1"/>
+        <MediaElement x:Name="mediaPlayer" Source="C:\Users\lucia\source\repos\Fight\videos\Eagle\EagleComboReset.mp4" Margin="131,21,10,93" LoadedBehavior="Manual" MediaOpened="mediaPlayer_MediaOpened" Grid.Column="1"    />
+        <ComboBox x:Name="cmbChar" HorizontalAlignment="Left" Margin="6,69,0,0"  VerticalAlignment="Top" Width="120" SelectionChanged="cmbChar_SelectionChanged" Grid.Column="1"/>
+        <ComboBox x:Name="cmbMov" HorizontalAlignment="Left" Margin="6,42,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label x:Name="label" Content="Reproduciendo:" Style="{StaticResource MiEstilo}"  HorizontalAlignment="Left" Margin="20,0,0,13" VerticalAlignment="Bottom" RenderTransformOrigin="-0.14,-1.963" Grid.ColumnSpan="2"/>
+        <Label x:Name="lblPlay" Content="" Style="{StaticResource MiEstilo}"  HorizontalAlignment="Left" Margin="83,0,0,0" VerticalAlignment="Bottom" Width="472" Height="39" Grid.Column="1"/>
+        <Slider x:Name="slider" HorizontalAlignment="Left" Margin="6,149,0,0" VerticalAlignment="Top" Width="120" ValueChanged="slider_ValueChanged" Minimum="0" Maximum="{Binding ElementName=mediaPlayer, Path=NaturalDuration.TimeSpan.TotalSeconds}" Grid.Column="1" />
+        <Label x:Name="label_Copy" Content="App by Conchita" Style="{StaticResource MiEstilo}" HorizontalAlignment="Left" Margin="571,0,0,4" VerticalAlignment="Bottom" RenderTransformOrigin="-0.14,-1.963" Grid.Column="1"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Fight;component/fondo.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
+    </Grid>
+
+</Window>

@@ -1,0 +1,352 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Antlr/3.5.0.2": {
+        "runtime": {
+          "lib/Antlr3.Runtime.dll": {
+            "assemblyVersion": "3.5.0.2",
+            "fileVersion": "3.5.0.2"
+          }
+        }
+      },
+      "EPP.PresentationCore/1.0.0": {
+        "runtime": {
+          "lib/PresentationCore.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.30319.34211"
+          }
+        }
+      },
+      "EPP.PresentationFramework/1.0.0": {
+        "runtime": {
+          "lib/PresentationFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.30319.34211"
+          }
+        }
+      },
+      "ExpressionEvaluator/2.0.4": {
+        "dependencies": {
+          "Antlr": "3.5.0.2"
+        },
+        "runtime": {
+          "lib/net40/ExpressionEvaluator.dll": {
+            "assemblyVersion": "2.0.4.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "GSF.Core/2.4.28": {
+        "dependencies": {
+          "ExpressionEvaluator": "2.0.4"
+        },
+        "runtime": {
+          "lib/net46/GSF.Core.dll": {
+            "assemblyVersion": "2.4.28.0",
+            "fileVersion": "2.4.28.0"
+          }
+        }
+      },
+      "GSF.Security/2.4.28": {
+        "dependencies": {
+          "ExpressionEvaluator": "2.0.4",
+          "GSF.Core": "2.4.28",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net46/GSF.Security.dll": {
+            "assemblyVersion": "2.4.28.0",
+            "fileVersion": "2.4.28.0"
+          }
+        }
+      },
+      "GSF.Windows/2.4.28": {
+        "dependencies": {
+          "GSF.Core": "2.4.28",
+          "GSF.Security": "2.4.28"
+        },
+        "runtime": {
+          "lib/net46/GSF.Windows.dll": {
+            "assemblyVersion": "2.4.28.0",
+            "fileVersion": "2.4.28.0"
+          }
+        }
+      },
+      "MapSuiteDependency-GeoAPI/10.6.0": {
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {
+            "assemblyVersion": "1.7.4.0",
+            "fileVersion": "1.7.4.0"
+          }
+        }
+      },
+      "MapSuiteDependency-MicrosoftSqlServerTypes/10.6.0": {
+        "dependencies": {
+          "MapSuiteDependency-MicrosoftVisualCRunTime100": "10.6.0"
+        },
+        "runtime": {
+          "lib/net45/Microsoft.SqlServer.Types.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "2016.140.100.187"
+          }
+        }
+      },
+      "MapSuiteDependency-MicrosoftVisualCRunTime100/10.6.0": {},
+      "MapSuiteDependency-NetTopologySuite/10.6.0": {
+        "dependencies": {
+          "MapSuiteDependency-GeoAPI": "10.6.0"
+        },
+        "runtime": {
+          "lib/net45/NetTopologySuite.dll": {
+            "assemblyVersion": "1.14.0.0",
+            "fileVersion": "1.14.0.0"
+          },
+          "lib/net45/PowerCollections.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MapSuiteDependency-SkiaSharp/10.6.0": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "rid": "tizen-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "rid": "tizen-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "PresentationFramework/4.6.0": {
+        "runtime": {
+          "lib/PresentationFramework.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.81.0"
+          }
+        }
+      },
+      "PresentationFramework.Aero2/1.0.1": {
+        "runtime": {
+          "lib/PresentationFramework.Aero2.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.2053.0"
+          }
+        }
+      },
+      "ThinkGeo.MapSuite/10.6.19": {
+        "dependencies": {
+          "MapSuiteDependency-MicrosoftSqlServerTypes": "10.6.0",
+          "MapSuiteDependency-NetTopologySuite": "10.6.0",
+          "MapSuiteDependency-SkiaSharp": "10.6.0",
+          "ThinkGeo.MapSuite.ProductCenter": "10.6.6"
+        },
+        "runtime": {
+          "lib/net45/ThinkGeo.MapSuite.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.6.19.0"
+          }
+        }
+      },
+      "ThinkGeo.MapSuite.Layers.NativeImage/10.6.5": {
+        "dependencies": {
+          "ThinkGeo.MapSuite": "10.6.19"
+        },
+        "runtime": {
+          "lib/net45/ThinkGeo.MapSuite.Layers.NativeImage.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.6.5.0"
+          }
+        }
+      },
+      "ThinkGeo.MapSuite.ProductCenter/10.6.6": {
+        "runtime": {
+          "lib/net45/ThinkGeo.MapSuite.ProductCenter.exe": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.6.6.0"
+          }
+        }
+      },
+      "WindowsBase_Core.STW/4.0.30319.1": {
+        "runtime": {
+          "lib/net40/WindowsBase.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.30319.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Antlr/3.5.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CSfrVuDVMx3OrQhT84zed+tOdM1clljyRLWWlQM22fJsmG836RVDGQlE6tzysXh8X8p9UjkHbLr6OqEIVhtdEA==",
+      "path": "antlr/3.5.0.2",
+      "hashPath": "antlr.3.5.0.2.nupkg.sha512"
+    },
+    "EPP.PresentationCore/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ttSZCunyGyOsL20FBZxM3K/7wMvWQ9vel+IidzFYdK02RIEx+EsV3Vc0Yeo8YslOp7G08unjNrtZEtWfLXJy4Q==",
+      "path": "epp.presentationcore/1.0.0",
+      "hashPath": "epp.presentationcore.1.0.0.nupkg.sha512"
+    },
+    "EPP.PresentationFramework/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QFzCPZHqgZZnJWOCQHXVZGSCHCAUWkpp73vG8DUf0C7BcVoGY7vOqVg2fyQ/wN6UfyM/kCmlx5edW87CkLngA==",
+      "path": "epp.presentationframework/1.0.0",
+      "hashPath": "epp.presentationframework.1.0.0.nupkg.sha512"
+    },
+    "ExpressionEvaluator/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-w8RqBrK5YkjgXmLE0M6PKcULee3/fVaz+aIt1lOEhyyb0PYIqGvbyovmZ9Mp5WCFV6EnUjxxkoEc4MS6wlyy5Q==",
+      "path": "expressionevaluator/2.0.4",
+      "hashPath": "expressionevaluator.2.0.4.nupkg.sha512"
+    },
+    "GSF.Core/2.4.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K0hUUmf+uIPQPf63ULss+6/7Arwxz0SJAb77146gcOgbPV220R2Cix3UPX/FNIedXpc9Y6LAxJfCCbv+bcGWSw==",
+      "path": "gsf.core/2.4.28",
+      "hashPath": "gsf.core.2.4.28.nupkg.sha512"
+    },
+    "GSF.Security/2.4.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P0xXoIkVLQYayz/LUSiUtD1YORMoC8aRXih4sr6nRKm3KNFWT99Ah/0avQ5jZUmZ3ugqd14wQqgy1/1tA3oxog==",
+      "path": "gsf.security/2.4.28",
+      "hashPath": "gsf.security.2.4.28.nupkg.sha512"
+    },
+    "GSF.Windows/2.4.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BxJpCw4DoGD4IIDbsmGJLQde/rVFbmPMm6RC/SDuhbdeXBvvPcxsuiSU/9Dh2gFbnNM3A+JlvaJeNfvVS4lawg==",
+      "path": "gsf.windows/2.4.28",
+      "hashPath": "gsf.windows.2.4.28.nupkg.sha512"
+    },
+    "MapSuiteDependency-GeoAPI/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g4PaMNUBbnemMn3d+XPrN78RQaQVsqYzyNLab7a7XHg3jUK8lIp3+n/dMfJhXiMVI3tBKK4yiQDosGWcoxMFKw==",
+      "path": "mapsuitedependency-geoapi/10.6.0",
+      "hashPath": "mapsuitedependency-geoapi.10.6.0.nupkg.sha512"
+    },
+    "MapSuiteDependency-MicrosoftSqlServerTypes/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hablt1PAM/lViHvL5bj4evbHRMb4pI975fAtsSPNpORa04JNEWBP7RP2vt+j/edAwDZ0B9ojoCXCNx5H7xW37A==",
+      "path": "mapsuitedependency-microsoftsqlservertypes/10.6.0",
+      "hashPath": "mapsuitedependency-microsoftsqlservertypes.10.6.0.nupkg.sha512"
+    },
+    "MapSuiteDependency-MicrosoftVisualCRunTime100/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-D0fZSSuFnhe0ZGlhChy8qHyTxUk1eHJycjPCpweHYbMS2h5omRYx+45kctM4oL861hP7j/G9RhHRTcUYOmLiwg==",
+      "path": "mapsuitedependency-microsoftvisualcruntime100/10.6.0",
+      "hashPath": "mapsuitedependency-microsoftvisualcruntime100.10.6.0.nupkg.sha512"
+    },
+    "MapSuiteDependency-NetTopologySuite/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-obB0jmycEs30j2F1aRxCbBRs3lNXIF8uAdw4enKmIma/JHP83JeQUuuI+rQ5oUR/EcMvL27l5Eq9G3rAqaGraA==",
+      "path": "mapsuitedependency-nettopologysuite/10.6.0",
+      "hashPath": "mapsuitedependency-nettopologysuite.10.6.0.nupkg.sha512"
+    },
+    "MapSuiteDependency-SkiaSharp/10.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pZP64+K+CxhWf416rhZ9P55LMj/jlhYnUJ3D3t0qkFMxLhmKEGGUaSoWAnveW3eu91WptlovbcHrDsONxFMjrQ==",
+      "path": "mapsuitedependency-skiasharp/10.6.0",
+      "hashPath": "mapsuitedependency-skiasharp.10.6.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "PresentationFramework/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-37FpU6XcB1Hgr5X03MgUOxvzWLJYKJP72J3g5hnZHi/DXsTxpJEu4brCGW+TmplVWfntuysO/uRcZcPS9YK0Bw==",
+      "path": "presentationframework/4.6.0",
+      "hashPath": "presentationframework.4.6.0.nupkg.sha512"
+    },
+    "PresentationFramework.Aero2/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BHOis2abvvr3JnvQPOevmGfa7tK8iH3yFJIA4lbtLPTVZ1pbOsq41CsgAA3DhtHody+Zsn/PRfKXzWr2dKIpcA==",
+      "path": "presentationframework.aero2/1.0.1",
+      "hashPath": "presentationframework.aero2.1.0.1.nupkg.sha512"
+    },
+    "ThinkGeo.MapSuite/10.6.19": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t89XSjhFgGtIADzyH93JbSlwy/1fWyQzZyVtIK1lX+Z7Dtyq/TlT9o45ZergoPZZCC/H5h2x2QYvtwn755N/qA==",
+      "path": "thinkgeo.mapsuite/10.6.19",
+      "hashPath": "thinkgeo.mapsuite.10.6.19.nupkg.sha512"
+    },
+    "ThinkGeo.MapSuite.Layers.NativeImage/10.6.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A/lu//wYywr42xavWl5O38adcvQr6hYzIznNoDX7/vizivoAbIiGYM5IUyRI8ZwSqhiHiGGyeKq/1MwZq7s9HQ==",
+      "path": "thinkgeo.mapsuite.layers.nativeimage/10.6.5",
+      "hashPath": "thinkgeo.mapsuite.layers.nativeimage.10.6.5.nupkg.sha512"
+    },
+    "ThinkGeo.MapSuite.ProductCenter/10.6.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WgtE7n3NAjCZMDwLLKBZgTRSfePOhWKbNvd6Zd74y/T2/uTArm21HwIh207zQNr0IYQetCpKcymQXm67vJQEnQ==",
+      "path": "thinkgeo.mapsuite.productcenter/10.6.6",
+      "hashPath": "thinkgeo.mapsuite.productcenter.10.6.6.nupkg.sha512"
+    },
+    "WindowsBase_Core.STW/4.0.30319.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rgGmwj3FnBLXW/5ldOYmOV8DhB+JJGTEM1ovvJ7zeTLMrw456hZCmNo2OdFvtVzAZ4l4SpuBR8AhvbHqbz8pXQ==",
+      "path": "windowsbase_core.stw/4.0.30319.1",
+      "hashPath": "windowsbase_core.stw.4.0.30319.1.nupkg.sha512"
+    }
+  }
+}

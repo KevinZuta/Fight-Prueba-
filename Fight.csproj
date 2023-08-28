@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="figthbackground.jfif" />
+  </ItemGroup>
+
+  
+   
+  
+
+  <ItemGroup>
+    <PackageReference Include="EPP.PresentationCore" Version="1.0.0" />
+    <PackageReference Include="EPP.PresentationFramework" Version="1.0.0" />
+    <PackageReference Include="GSF.Windows" Version="2.4.28" />
+    <PackageReference Include="PresentationFramework" Version="4.6.0" />
+    <PackageReference Include="PresentationFramework.Aero2" Version="1.0.1" />
+    <PackageReference Include="ThinkGeo.MapSuite.Layers.NativeImage" Version="10.6.5" />
+    <PackageReference Include="WindowsBase_Core.STW" Version="4.0.30319.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="figthbackground.jfif" />
+    <Content Include="icono.png" />
+    <Content Include="fondo.png" />
+    <Content Include="logo.png" />
+	 
+  </ItemGroup>
+
+</Project>
